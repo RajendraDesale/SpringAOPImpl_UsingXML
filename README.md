@@ -10,7 +10,7 @@ AOP provides the way to dynamically add the cross-cutting concern before, after 
 the actual logic using simple pluggable configurations. It makes easy to maintain code in 
 the present and future as well. You can add/remove concerns without recompiling
 complete sourcecode simply by changing configuration files 
-(if you are applying aspects suing XML configuration).**
+(if you are applying aspects suing XML configuration). **
 
 
 ### What is advice, joinpoint and pointcut
@@ -20,7 +20,7 @@ An important term in AOP is advice. It is the action taken by an aspect at a par
 of a method or the handling of an exception.In Spring AOP, a joinpoint always represents a method execution.
 2. **_Pointcut_** is a predicate or expression that matches join points.
 3. **_Advice_** is associated with a pointcut expression and runs at any join point matched by the pointcut.
-4.Spring uses the AspectJ pointcut expression language by default.**
+4.Spring uses the AspectJ pointcut expression language by default.
 
 
 ### Types of AOP advices
@@ -36,5 +36,5 @@ join point exits (normal or exceptional return).
 This is the most powerful kind of advice. Around advice can perform custom behavior before and 
 after the method invocation. It is also responsible for choosing whether to proceed to the 
 join point or to shortcut the advised method execution by returning its own return 
-value or throwing an exception.**
+value or throwing an exception.
 
